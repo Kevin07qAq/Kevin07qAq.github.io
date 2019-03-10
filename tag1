@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<!--HyperText Markup Language -->
+    
+    <header>Header</header>
+    <h1>Heading 1</h1>
+    <h4>Heading 4</h4>
+    <p>this is paragraph</p>
+    <div>this is div, lorem</div>
+
+    <nav>
+        <ul>
+            <li>About</li>
+            <li>Products</li>
+            <li>Serices</li>
+        </ul>
+    </nav>
+
+<footer> Facebook &copy;</footer>
+
+</body>
+
+</html>
+
+
+
