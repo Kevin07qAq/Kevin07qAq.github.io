@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">exe
+    <meta keyword="">
+    <title>Document</title>
+    <style>
+        span {
+            background-color: fuchsia;
+            width: 100px;
+        }
+        #poi {
+            width: 50px;
+            display: inline-block;
+            text-align: center;
+            font-size: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+  <label for="username">username</label>
+  <input id="username" type="text">
+  
+  <br>
+  
+  <input type="text" placeholder="将汝的代号至于光明吧哈哈哈">
+  <input type="submit">
+  <br>
+  <input type="color">
+  <input type="search">
+  <input type="file">
+  <input type="reset">
+  <button><img width="100" src="https://i1.kknews.cc/SIG=36far1p/15n00007p8r8r0s84272.jpg" alt="">OKOKOK</button>
+  <input id="poi" type="image" src="https://i1.kknews.cc/SIG=36far1p/15n00007p8r8r0s84272.jpg">
+   <input list='fun'>
+    <datalist id="fun">
+        <option value="猫娘狂三">猫娘狂三</option>
+        <option value="折纸大师">折纸大师</option>
+        <option value="白琴里">白琴里</option>
+    </datalist>
+    <select id="fun">
+        <option value="猫娘狂三">猫娘狂三</option>
+        <option value="折纸大师">折纸大师</option>
+        <option value="白琴里">白琴里</option>
+    </select>
+    <meter min=0 max=10 value=5></meter>
+    <br>
+    <progress min=0 max=10 value=5></progress>
+    <br>
+    <input id="lkj" name="hahaha" type="range" min="1" max="10" value="5"><span id=hahaha></span>
+    
+     
+     
+    <script>
+    input = document.querySelector('#lkj');
+    span = document.querySelector('span');
+    input.oninput = function(e) {
+        val = this.value;
+        span.innerHTML = val;  
+    };
+    </script>
+</body>
+</html>
